@@ -1,3 +1,23 @@
+:root {
+  --font-sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-serif: "Rowan", ui-serif, Georgia, "Times New Roman", Times, serif;
+  
+    /* override GSAP demo colors - change the codes only, leave the variable names as they are */
+  --color-just-black: #181818; /* for a new background color */
+  --color-just-white: #FCFCFC; /* your new text color (optional but usually needed) */
+  
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+
+
 html,
 body {
   margin: 0;
